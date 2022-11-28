@@ -50,7 +50,6 @@
         <link rel="stylesheet" href="assets/css/vendor/gallery.min.css">
         <link rel="stylesheet" href="assets/css/vendor/cookie-notice.min.css">
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
         <!-- ==============================================
         Custom Stylesheet
         =============================================== -->
@@ -109,13 +108,13 @@
                             <a href="#header" class="nav-link smooth-anchor">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#portfolio-grid" class="nav-link smooth-anchor">Gallery</a>
+                            <a id="gallery-navbar" href="#portfolio-grid" class="nav-link smooth-anchor">Gallery</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#features" class="nav-link smooth-anchor">Services</a>
+                            <a id="services-navbar" href="#features" class="nav-link smooth-anchor">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#pricing" class="nav-link smooth-anchor">Pricing</a>
+                            <a id="plans-navbar" href="#pricing" class="nav-link smooth-anchor">Plans</a>
                         </li>
                     </ul>
 
@@ -142,7 +141,18 @@
                     <!-- Navbar Action -->
                     <ul class="navbar-nav action">
                         <li class="nav-item ml-3">
-                            <a href="#contact" class="btn ml-lg-auto dark-button smooth-anchor"><i class="icon-speech"></i>CONTACT US</a>
+                            <a id="contact-navbar" href="#contact" class="btn ml-lg-auto dark-button smooth-anchor"><i class="icon-speech"></i>CONTACT US</a>
+                        </li>
+                    </ul>
+
+                    <!-- Navbar Icons -->
+                    <ul class="navbar-nav icons">
+                        <li class="nav-item">
+                        <li class="nav-item social">
+                            <h6 id="it" class="nav-link translate">IT</h6>
+                        </li>
+                        <li class="nav-item social">
+                            <h6 href="#" id="en" class="nav-link translate">EN</h6>
                         </li>
                     </ul>
                 </div>
@@ -162,8 +172,8 @@
                         <div class="slide-content row">
                             <div class="col-12 d-flex inner">
                                 <div class="center align-self-center text-center">
-                                    <h2 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">Influencer<br>Grow Agency</h2>
-                                    <a href="#contact" data-aos="zoom-out-up" data-aos-delay="1200" class="smooth-anchor ml-auto mr-auto mt-5 btn dark-button"><i class="icon-cup"></i>GET STARTED</a>
+                                    <h2 id="title-hero" data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text" >Influencer<br>Grow Agency</h2>
+                                    <a id="start-hero" href="#contact" data-aos="zoom-out-up" data-aos-delay="1200" class="smooth-anchor ml-auto mr-auto mt-5 btn dark-button">>GET STARTED</a>
                                 </div>
                             </div>
                         </div>
@@ -288,9 +298,7 @@
                         <div class="col-12 col-md-6 col-lg-4 item filter-item" data-groups='["technology","digital-marketing"]' data-aos="flip-right">
                             <div class="row card p-0 text-center" data-aos="flip-right" data-aos-delay="400">
                                 <div class="gallery">
-                                    <a href="#" class="image-over">
-                                        <i class="play-video-full icon-control-play"></i>
-                                        <div class="mask-radius-full"></div>
+                                    <a href="assets/images/model3.png" class="image-over">
                                         <img src="assets/images/model3.png" alt="Lorem ipsum">
                                     </a>
                                 </div>
@@ -860,6 +868,7 @@
         <script src="assets/js/vendor/cookie-notice.min.js"></script>
         <script src="assets/js/vendor/particles.min.js"></script>
         <script src="assets/js/main.js"></script>
+        <script src="assets/js/multilang.js"></script>
 
         <!-- #endregion Global ========================= -->
 
