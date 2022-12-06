@@ -10,7 +10,7 @@ document.getElementById("it").addEventListener("click", () => {
     '<i class="icon-cup"></i>INIZIAMO';
   document.getElementById("why-us").innerHTML = "Perchè sceglierci?";
   document.getElementById("why-us-desc").innerHTML =
-    "Curiamo e gestiamo la crescita di ogni creator con attenzione e seguendo le specifiche più adatte per ogni caso in questione.";
+    "Curiamo e gestiamo la crescita di ogni creator con attenzione seguendo le specifiche più adatte per ogni caso in questione.";
   document.getElementById("partner").innerHTML = "Incremento Collaborazioni";
   document.getElementById("follow").innerHTML = "Incremento Follower";
   document.getElementById("problems").innerHTML = "Meno Problemi";
@@ -18,7 +18,7 @@ document.getElementById("it").addEventListener("click", () => {
   document.getElementById("servizi").innerHTML = "Servizi";
   document.getElementById("shooting").innerHTML = "Shooting fotografico";
   document.getElementById("shooting-desc").innerHTML =
-    "Ti aiutiamo a creare i migliori contenuti digitali grazie a shooting professionali e personalizzati a seconda del cliente";
+    "Ti aiutiamo a creare i migliori contenuti digitali grazie a shooting professionali personalizzati a seconda del cliente";
   document.getElementById("chat").innerHTML = "Gestione chat";
   document.getElementById("chat-desc").innerHTML =
     "I nostri collaboratori gestiranno le chat su ogni social 24/7 per massimizzare i profitti ed avere una più comoda gestione dei messaggi";
@@ -30,7 +30,7 @@ document.getElementById("it").addEventListener("click", () => {
     "Creazione di un identità e di un personaggio dedita alla crescita social";
   document.getElementById("collab").innerHTML = "Collab";
   document.getElementById("collab-desc").innerHTML =
-    "Aiutiamo i nostri clienti creando un vero e proprio network dove riuscire a distinguersi e crescere";
+    "Aiutiamo i nostri clienti a crearsi un proprio network,in modo da favorire la crescita tramite collaborazioni e partnership";
   document.getElementById("personal").innerHTML = "Servizi personalizzati";
   document.getElementById("personal-desc").innerHTML =
     "A seconda di richieste specifiche creiamo servizi su misura per ogni esigenza";
